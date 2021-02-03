@@ -1,8 +1,8 @@
+import 'package:cached_video_player/cached_video_player.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lusy_in_the_sky/core/image/cached_image.dart';
-import 'package:video_player/video_player.dart';
 
 class VideoBackground extends StatefulWidget {
   final String _video;
@@ -22,12 +22,12 @@ class VideoBackground extends StatefulWidget {
 
 class _VideoBackgroundState extends State<VideoBackground> {
   Future<void> _initializeVideoPlayerFuture;
-  VideoPlayerController _controller;
+  CachedVideoPlayerController _controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network(
+    _controller = CachedVideoPlayerController.network(
       widget._video,
     )..setLooping(true);
     _initializeVideoPlayerFuture = _controller.initialize();
@@ -54,7 +54,7 @@ class _VideoBackgroundState extends State<VideoBackground> {
               child: SizedBox(
                 height: _controller.value.size?.height ?? 0,
                 width: _controller.value.size?.width ?? 0,
-                child: VideoPlayer(_controller),
+                child: CachedVideoPlayer(_controller),
               ),
             );
           } else {
