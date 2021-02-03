@@ -82,6 +82,10 @@ class _ItemTabState extends State<ItemTab> {
                     ],
                   );
                 });
+          } else if (catalogState is CatalogErrorState) {
+            return Center(
+              child: Text(catalogState.error),
+            );
           } else {
             return Center(
               child: CircularProgressIndicator(),
