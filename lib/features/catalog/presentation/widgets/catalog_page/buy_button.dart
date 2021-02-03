@@ -4,7 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class BuyButton extends StatelessWidget {
   final Function() onTap;
   const BuyButton({
-    Key key, @required this.onTap,
+    Key key,
+    @required this.onTap,
   }) : super(key: key);
 
   @override
@@ -18,7 +19,10 @@ class BuyButton extends StatelessWidget {
         child: FlatButton(
           onPressed: onTap,
           padding: EdgeInsets.all(ScreenUtil().setSp(0)),
-          child: Image.asset('assets/button_images/main.png'),
+          child: Image.asset(
+            'assets/button_images/main.png',
+            color: Colors.black,
+          ),
         ),
       ),
     );
