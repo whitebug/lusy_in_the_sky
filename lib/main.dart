@@ -2,10 +2,11 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lusy_in_the_sky/core/route/lucy_router.gr.dart';
 import 'package:lusy_in_the_sky/features/catalog/presentation/blocs/catalog_bloc/catalog_bloc.dart';
 import 'package:lusy_in_the_sky/features/catalog/presentation/blocs/lucy_bloc_observer.dart';
 import 'package:lusy_in_the_sky/injection_container.dart' as getIt;
+
+import 'features/catalog/presentation/route/lucy_router.gr.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

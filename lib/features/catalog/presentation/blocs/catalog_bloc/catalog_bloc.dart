@@ -1,12 +1,10 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:lusy_in_the_sky/core/error/failures.dart';
-import 'package:lusy_in_the_sky/core/usecases/usecase.dart';
-import 'package:lusy_in_the_sky/features/catalog/domain/usecases/get_catalog_items.dart';
+import 'package:core/core.dart';
+import 'package:catalog_domain/catalog_domain.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
-import 'package:lusy_in_the_sky/features/catalog/domain/entities/catalog_item.dart';
 
 part 'catalog_event.dart';
 part 'catalog_state.dart';

@@ -10,6 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  core:
+    path: core
+  catalog_domain:
+    path: catalog_domain
+  catalog_data:
+    path: catalog_data
   cupertino_icons: ^1.0.0
   get_it: ^5.0.4
   flutter_bloc: ^6.1.1

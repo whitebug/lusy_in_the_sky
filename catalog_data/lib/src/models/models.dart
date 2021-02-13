@@ -1,0 +1,1 @@
+export 'catalog_item_model.dart';

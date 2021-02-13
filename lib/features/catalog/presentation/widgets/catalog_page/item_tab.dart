@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lusy_in_the_sky/features/catalog/domain/entities/catalog_item.dart';
+import 'package:catalog_domain/catalog_domain.dart';
 import 'package:lusy_in_the_sky/features/catalog/presentation/blocs/catalog_bloc/catalog_bloc.dart';
 import 'package:lusy_in_the_sky/features/catalog/presentation/widgets/widgets.dart';
 

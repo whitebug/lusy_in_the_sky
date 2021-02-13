@@ -1,11 +1,7 @@
-import 'dart:convert';
-
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lusy_in_the_sky/core/error/failures.dart';
-import 'package:lusy_in_the_sky/core/usecases/usecase.dart';
-import 'package:lusy_in_the_sky/features/catalog/domain/entities/catalog_item.dart';
-import 'package:lusy_in_the_sky/features/catalog/domain/usecases/get_catalog_items.dart';
+import 'package:core/core.dart';
+import 'package:catalog_domain/catalog_domain.dart';
 import 'package:lusy_in_the_sky/features/catalog/presentation/blocs/catalog_bloc/catalog_bloc.dart';
 import 'package:mockito/mockito.dart';
 import 'package:dartz/dartz.dart';

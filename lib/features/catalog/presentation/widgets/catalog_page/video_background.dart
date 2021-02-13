@@ -1,8 +1,8 @@
 import 'package:cached_video_player/cached_video_player.dart';
+import 'package:core/core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lusy_in_the_sky/core/image/cached_image.dart';
 
 class VideoBackground extends StatefulWidget {
   final String _video;
