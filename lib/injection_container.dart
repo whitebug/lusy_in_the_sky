@@ -5,7 +5,7 @@ import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:catalog_domain/catalog_domain.dart';
 
-import 'features/catalog/presentation/blocs/catalog_bloc/catalog_bloc.dart';
+import 'features/catalog/blocs/catalog_bloc/catalog_bloc.dart';
 
 final GetIt getIt = GetIt.I;
 

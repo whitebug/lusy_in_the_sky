@@ -8,7 +8,7 @@
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:lusy_in_the_sky/features/catalog/presentation/pages/pages.dart';
+import 'package:lusy_in_the_sky/features/catalog/pages/pages.dart';
 
 class Routes {
   static const String catalogPage = '/';

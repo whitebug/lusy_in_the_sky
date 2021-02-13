@@ -2,7 +2,7 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:core/core.dart';
 import 'package:catalog_domain/catalog_domain.dart';
-import 'package:lusy_in_the_sky/features/catalog/presentation/blocs/catalog_bloc/catalog_bloc.dart';
+import 'package:lusy_in_the_sky/features/catalog/blocs/catalog_bloc/catalog_bloc.dart';
 import 'package:mockito/mockito.dart';
 import 'package:dartz/dartz.dart';
 
